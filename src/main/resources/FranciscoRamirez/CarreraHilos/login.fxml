@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FranciscoRamirez.CarreraHilos.PagineController">
+   <children>
+      <ProgressBar fx:id="c1" layoutX="113.0" layoutY="63.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" />
+      <Button fx:id="b1" layoutX="162.0" layoutY="306.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="72.0" text="Empezar" />
+      <ProgressBar fx:id="c2" layoutX="113.0" layoutY="126.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" />
+      <ProgressBar fx:id="c3" layoutX="113.0" layoutY="200.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" />
+      <ProgressBar fx:id="c4" layoutX="113.0" layoutY="254.0" prefHeight="18.0" prefWidth="373.0" progress="0.0" />
+      <Button fx:id="b2" layoutX="360.0" layoutY="306.0" mnemonicParsing="false" text="Suspender" />
+      <Button fx:id="b3" layoutX="263.0" layoutY="308.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="72.0" text="Reanudar" />
+      <TextField fx:id="aa" layoutX="413.0" layoutY="361.0" />
+      <Text layoutX="330.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Winner" />
+   </children>
+</AnchorPane>
